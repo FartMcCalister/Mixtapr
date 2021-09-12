@@ -1,7 +1,8 @@
-1. - Add diliniations for tracks and blank spaces on scrub bar
+1. - Add delineations for tracks and blank spaces on scrub bar
 2. - Add audio compressor functionality
 3. - Optimize for mobile
 4. - Pause/scrub controls
 5. - Tracks overflow if tracks length > tape length
 6. - Add volume control
-7. - 
+7. - Drag n' drop file organization
+8. - 
