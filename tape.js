@@ -192,20 +192,20 @@ $(document).ready(function(){
   
   // common function to build the image button that changes from play to stop for each track
   buildPlayButtonImage = function (index) {
-    return "<img src='play_button_green3.png' alt='play' onclick='clickPlayTrack("+index+");' style='padding-top:3px;width:15px;height:15px;'>";
+    return "<img src='icons/play_button_green3.png' alt='play' onclick='clickPlayTrack("+index+");' style='padding-top:3px;width:15px;height:15px;'>";
   };
   
   // common function to build the image button that changes from play to stop for each track
   buildStopButtonImage = function (index) {
-    return "<img src='stop_button_red3.png' alt='stop' onclick='clickStopPlaying();' style='padding-top:3px;width:15px;height:15px;'>";
+    return "<img src='icons/stop_button_red3.png' alt='stop' onclick='clickStopPlaying();' style='padding-top:3px;width:15px;height:15px;'>";
   };
   
   buildUpArrowImage = function (index, invisible) {
-    return "<img src='up_arrow3.png' alt='up' onclick='moveTrackUp("+index+")' style='padding-top:3px;width:15px;height:15px;"+(invisible?"opacity:0;":"")+"'>";
+    return "<img src='icons/up_arrow3.png' alt='up' onclick='moveTrackUp("+index+")' style='padding-top:3px;width:15px;height:15px;"+(invisible?"opacity:0;":"")+"'>";
   };
   
   buildDownArrowImage = function (index, invisible) {
-    return "<img src='down_arrow3.png' alt='up' onclick='moveTrackDown("+index+")' style='padding-top:3px;width:15px;height:15px;"+(invisible?"opacity:0;":"")+"'>";
+    return "<img src='icons/down_arrow3.png' alt='up' onclick='moveTrackDown("+index+")' style='padding-top:3px;width:15px;height:15px;"+(invisible?"opacity:0;":"")+"'>";
   };
   
   populateMetaData = function (track) {
